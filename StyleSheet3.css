@@ -1,0 +1,85 @@
+﻿video {
+    position: fixed;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+}
+
+input[type=text], textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+}
+ 
+input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+
+.container {
+	width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px 1px #ccc;
+}
+
+.Login-form {
+    height: 310px;
+    width: 270px;
+    border-radius: 10px;
+    display: flexbox;
+    flex-direction: column;
+    text-align-last: center;
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    color: #fff;
+    padding-top: 60px;
+}
+
+Order Book Now h2 {
+    width: 200px;
+    margin-top: 20px;
+    background: transparent;
+    outline: none;
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 30px;
+    box-shadow: 0 0 4px #fff;
+    transition: box-shadow 0.5s ease;
+}
+
+.btn {
+    padding: 5px 20px;
+    margin-top: 30px;
+    background: transparent;
+    border-radius: 30px;
+    box-shadow: 0 0 4px #fff;
+    cursor: pointer;
+}
+
+input[type="text"], input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+button[type="Save"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
