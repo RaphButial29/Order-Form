@@ -1,0 +1,41 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm4.aspx.cs" Inherits="RJB_2A.WebForm4" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="StyleSheet3.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="container">
+
+        <h2 style="color: red;">Order Book Now!</h2>
+        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+        <br />
+        <asp:Label style="color: white;" Font-Color="white" ID="txtOrderID" runat="server" Text="To Delete and Update input ID orders"></asp:Label>
+        <asp:TextBox ID="txtMyOrder" runat="server"></asp:TextBox>
+        <asp:TextBox ID="txtPrice" runat="server"></asp:TextBox>
+        <asp:Button BackColor="cyan" Font-Size="Medium" Font-Bold="true" ID="Button1" runat="server" Text="Save" OnClick="Button1_Click" CssClass="btn btn-info" />
+        <asp:Button BackColor="aquamarine" Font-Size="Medium" Font-Bold="true" ID="Button2" runat="server" Text="Update" OnClick="Button2_Click" />
+        <asp:Button BackColor="red" Font-Size="Medium" Font-Bold="true" ID="Button3" runat="server" Text="Delete" OnClick="Button3_Click" CssClass="btn btn-danger" />
+        <br />
+        <asp:Label style="color: white;" ID="Label1" runat="server" Text="Please Enter Your Order"></asp:Label>
+        <br />
+        <asp:TextBox ID="SearchBox" runat="server"></asp:TextBox>
+        <asp:Button BackColor="DarkCyan" ID="SearchButton" runat="server" Text="Search" OnClick="SearchButton_Click" />
+        </div>
+        <center>
+        <asp:GridView  BackColor="cadetblue" Font-Size="Medium" ID="GridView1"  runat="server"></asp:GridView>
+        </center>
+    </form>
+    
+    <video autoplay muted loop>
+        <source src="bv.mp4" />
+    </video>
+</body>
+</html>
